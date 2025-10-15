@@ -22,11 +22,11 @@ class Siswa:
     
 siswa1 = Siswa()
 siswa1.nama = "Tiara Febrianti"
-siswa1.kelas = "X RPL 1"
+siswa1.kelas = "XI RPL 1"
 siswa1.jurusan = "Rekayasa Perangkat Lunak"
 siswa2 = Siswa()
 siswa2.nama = "Dimas Saputra"
-siswa2.kelas = "X RPL 1"
+siswa2.kelas = "X RPL 2"
 siswa2.jurusan = "Rekayasa Perangkat Lunak"
 siswa3 = Siswa()
 siswa3.nama = "Aulia Rahma"
