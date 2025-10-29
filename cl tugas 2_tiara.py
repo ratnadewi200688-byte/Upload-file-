@@ -1,17 +1,25 @@
 #python 3.7.1
 
-#class
-
+#class 
 class AlatMusik:
-    def __init__(self, nama, jenis, bahan, asal, harga):
-        self.nama = nama
-        self.jenis = jenis
-        self.bahan = bahan
-        self.asal = asal
-        self.harga = harga
+    nama = ""
+    jenis = ""
+    bahan = ""
+    asal = ""
+    harga = 0
 
-alat1 = AlatMusik("Gitar", "Petik", "Kayu Mahoni", "Spanyol", 1500000)
-alat2 = AlatMusik("Piano", "Tekan", "Kayu Oak", "Italia", 7500000)
+alat1 = AlatMusik()
+alat1.nama = "Gitar"
+alat1.jenis = "Petik"
+alat1.bahan = "Kayu Mahoni"
+alat1.asal = "Spanyol"
+alat1.harga = 1500000
+alat2 = AlatMusik()
+alat2.nama = "Piano"
+alat2.jenis = "Tekan"
+alat2.bahan = "Kayu Oak"
+alat2.asal = "Italia"
+alat2.harga = 7500000
 
 print(alat1.nama)
 print(alat1.jenis)
